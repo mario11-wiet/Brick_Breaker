@@ -1,6 +1,6 @@
-Brick Breaker
+##Brick Breaker
 
-Sterowanie:
+##Sterowanie:
 
 Spacja- zatrzymanie/ wznowienie gry 
 
