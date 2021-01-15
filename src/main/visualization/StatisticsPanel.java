@@ -81,7 +81,7 @@ public class StatisticsPanel extends JPanel {
         if(drawBlock.currentBonus==0) {
             text3.setText("Ostatni bonus: zmniejszenie");
         }
-        if(drawBlock.currentBonus==0) {
+        if(drawBlock.currentBonus==-1) {
             text3.setText("Ostatni bonus: brak");
         }
 
