@@ -58,11 +58,13 @@ public class GameMain extends JFrame implements ActionListener,KeyListener, Even
         }
         if(lifeBall> drawBlock.life)
         {
+            JOptionPane.showMessageDialog(null, "Straciłeś życie", ":(", JOptionPane.INFORMATION_MESSAGE);
+
             lifeBall= drawBlock.life;
             if(drawBlock.life==0) {
-                JOptionPane.showMessageDialog(null, "Straciłeś życie", ":(", JOptionPane.INFORMATION_MESSAGE);
+                timer.stop();
+
             }
-            timer.stop();
         }
         if(lifeBall==0)
         {
