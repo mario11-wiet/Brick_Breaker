@@ -25,7 +25,7 @@ public class GameMain extends JFrame implements ActionListener,KeyListener, Even
     public GameMain() throws IllegalAccessException {
 
 
-        timer = new Timer(0, this);
+        timer = new Timer(10, this);
         iniitializeLayout();
 
     }
@@ -127,6 +127,7 @@ public class GameMain extends JFrame implements ActionListener,KeyListener, Even
                 drawBlock.life+=1;
                 JOptionPane.showMessageDialog(null, "Dostajesz bonus w postawci 1000 punktów i jednego życia więcej", "Bonus", JOptionPane.INFORMATION_MESSAGE);
             }
+            drawBlock.blocks.creatBlock();
             lifeBall=drawBlock.life;
             counterGame+=1;
             timer.start();

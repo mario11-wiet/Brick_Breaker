@@ -120,8 +120,9 @@ public class DrawBlock extends JPanel implements ActionListener, KeyListener, Ev
                 }
             }
         }
-        blocks.blockDestroy();
         ball.move(board.boardPositionYInMap,board.boardLeftX,board.boardWeight);
+
+        blocks.blockDestroy();
         if(ball.changeX==0 && ball.changeY==0)
         {
             if(life>0)
