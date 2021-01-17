@@ -30,3 +30,5 @@ Strzałka prawa- przesunięcie kładki maksymalnie do lewej strony
 ## Inne:
 
 -dodawnanie nowych cegiełek, gdy ich ilość jest mała
+
+-dodatkowy bonus na start, gdy się wpisze odpowiednią nazwę użytkownika 
